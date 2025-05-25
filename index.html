@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curriculum Vitae - Zidan Aqila Muhammad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .profile-img {
+      width: 150px;
+      border-radius: 50%;
+      border: 4px solid #0d6efd;
+    }
+    .section-title {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+
+    <!-- Profile Card -->
+    <div class="card text-center mb-5 shadow">
+      <div class="card-body">
+        <img src="profile_pic.jpg" alt="Foto Diri" class="profile-img">
+        <h2 class="card-title">Zidan Aqila Muhammad</h2>
+        <p class="card-text"><em>Android Developer</em></p>
+      </div>
+    </div>
+
+    <!-- Tentang Saya -->
+    <section>
+      <h3 class="section-title">Tentang Saya</h3>
+      <p>
+        Saya adalah seorang pengembang Aplikasi Android yang berdedikasi dengan pengalaman lebih dari 5 tahun dalam pengembangan aplikasi Android. Saya memiliki ketertarikan yang besar terhadap teknologi terbaru dan selalu mencari cara untuk meningkatkan keterampilan saya.
+      </p>
+      <p>
+        Dalam keseharian saya, saya senang memecahkan masalah, bekerja dalam tim, dan belajar hal baru. Saya percaya bahwa pembelajaran adalah proses seumur hidup, dan dunia teknologi memberi ruang tak terbatas untuk berkembang.
+      </p>
+    </section>
+
+    <!-- Keahlian Accordion -->
+    <section>
+      <h3 class="section-title">Keahlian</h3>
+      <div class="accordion" id="skillsAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              Bahasa Pemrograman
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              JAVA, Kotlin, JavaScript, Dart
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              Framework & Tools
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Flutter, Android Studio, Git, Katalon, VS Code
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section>
+      <h3 class="section-title">Project Galery</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="image3.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">Aplikasi Member (Jnc Cookies)</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="image1.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">Aplikasi Monitoring</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="image2.png" class="card-img-top" alt="Project 3">
+              <div class="card-body">Sistem POS</div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Tabel Pendidikan -->
+    <section id="pendidikan">
+      <h3 class="section-title">Riwayat Pendidikan</h3>
+      <table class="table table-bordered table-hover">
+        <thead class="table-light">
+          <tr>
+            <th><strong>Tahun<strong></th>
+            <th><strong>Institusi</strong></th>
+            <th><strong>Jurusan</strong></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2018 - 2020</td>
+            <td>SMAIT AL Iman Mojokerto</td>
+            <td>IPA</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabel Pengalaman -->
+    <section>
+      <h3 class="section-title">Pengalaman Kerja</h3>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Tahun</th>
+            <th>Perusahaan</th>
+            <th>Posisi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2022 - Sekarang</td>
+            <td>Eresto</td>
+            <td>Android Developer</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>PT. Bimasakti Multi Sinergi</td>
+            <td>Android Developer</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>PT. Cendana Teknika Utama</td>
+            <td>Android Developer</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- List -->
+    <section>
+      <h3 class="section-title">Bahasa Favorit</h3>
+      <ol class="list-group list-group-numbered mb-3">
+        <li class="list-group-item">Kotlin</li>
+        <li class="list-group-item">Java</li>
+        <li class="list-group-item">Javascript</li>
+      </ol>
+
+      <h3>Hobi</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Menonton Film</li>
+        <li class="list-group-item">Membaca</li>
+        <li class="list-group-item">Bermain Game</li>
+      </ul>
+    </section>
+
+    <!-- Link -->
+    <section>
+        <div class="text-center fs-3">
+            <a href="https://github.com/zidan161/" target="_blank" class="me-3 text-dark"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/zidan-aqila-muhammad/" target="_blank" class="me-3 text-dark"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/zidan_161/" class="text-success" class="me-3 text-dark"><i class="bi bi-instagram"></i></a>
+          </div>
+      </section>
+
+    <!-- Made By Zidan with love :) -->
+
+    <footer class="text-center mt-5 mb-3">
+      <hr>
+      <p>&copy; 2025 Zidan Aqila Muhammad</p>
+    </footer>
+  </div>
+</body>
+</html>
